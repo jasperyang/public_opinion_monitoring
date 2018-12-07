@@ -1,0 +1,6 @@
+pymysql
+requests
+Unidecode==1.0.22
+backports.ssl_match_hostname
+pandas
+sqlalchemy

@@ -1,0 +1,27 @@
+{% extends 'sensi_web/base.html' %}
+
+{% load bootstrap3 %}
+
+{% block title %}
+    Welcome to service
+{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<form method="post" action="/search/">
+{% csrf_token %}
+    key words：<input type="text" name="keywords" /><input method="post" type="submit" name="search" value="查询"</>
+</form>
+
+</body>
+</html>
+
+{% endblock %}

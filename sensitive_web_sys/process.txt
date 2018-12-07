@@ -1,0 +1,7 @@
+复现步骤记录：
+
+1. Pip install django
+2. Pip install django-boostrap3
+3. pip install mongoengine
+4. https://www.cnblogs.com/melonjiang/p/6536876.html 创建一个mongo数据库
+5. Brew install mongodb
